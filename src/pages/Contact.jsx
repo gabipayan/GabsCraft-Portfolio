@@ -1,5 +1,6 @@
 // src/pages/Contact.jsx
 import React, { useState } from 'react';
+import '../style.css';
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -14,13 +15,40 @@ const Contact = () => {
   };
 
   return (
-    <section>
-      <h2>Contact</h2>
-      <form onSubmit={handleSubmit}>
-        <input type="text" name="name" placeholder="Name" onChange={handleChange} required />
-        <input type="email" name="email" placeholder="Email" onChange={handleChange} required />
-        <textarea name="message" placeholder="Message" onChange={handleChange} required></textarea>
-        <button type="submit">Send</button>
+    <section className="contact-section">
+      <h2 className="contact-title">Contact</h2>
+      <form className="contact-form" onSubmit={handleSubmit}>
+        <label htmlFor="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+          required
+        />
+
+        <label htmlFor="email">Email address:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          required
+        />
+
+        <label htmlFor="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+          rows="5"
+          required
+        ></textarea>
+
+        <button type="submit" className="contact-button">Submit</button>
       </form>
     </section>
   );
