@@ -1,0 +1,87 @@
+/* src/styles.css */
+:root {
+  --color-beige: #F4F1DE;
+  --color-salmon: #E07A5F;
+  --color-navy: #3D405B;
+  --color-sage: #81B29A;
+  --color-yellow: #F2CC8F;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-beige);
+  color: var(--color-navy);
+}
+
+header {
+  background-color: var(--color-navy);
+  color: var(--color-beige);
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: var(--color-salmon);
+  text-decoration: none;
+}
+
+nav ul li a:hover,
+.active {
+  font-weight: bold;
+  color: var(--color-yellow);
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: var(--color-navy);
+  color: var(--color-beige);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.about-section {
+  padding: 40px;
+  background-color: var(--color-yellow);
+}
+
+.about-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: var(--color-salmon);
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.about-avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--color-sage);
+}
+
+.about-text {
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-navy);
+}
