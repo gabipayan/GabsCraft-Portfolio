@@ -1,6 +1,7 @@
 // src/pages/AboutMe.jsx
 
 import React from 'react';
+import GabiImage from '../Images/Gabi-pink.png';
 
 const AboutMe = () => {
   return (
@@ -8,13 +9,14 @@ const AboutMe = () => {
       <h2 className="about-title">About Me</h2>
       <div className="about-content">
         <img
-          src="path/to/avatar.jpg"
+          src={GabiImage}
           alt="Avatar"
           className="about-avatar"
         />
         <p className="about-text">
-          Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter plaid direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard Carles you probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut paleo scenester...
-        </p>
+        I’m a Principal recruiter in the technology sector at Etsy, and passionate about starting my coding journey. With
+                experience leading projects and teams, I’m eager to build innovative solutions and bring fresh
+                perspectives to software development.        </p>
       </div>
     </section>
   );
