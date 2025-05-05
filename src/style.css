@@ -50,6 +50,7 @@ footer {
   bottom: 0;
 }
 
+/* About Section */
 .about-section {
   padding: 40px;
   background-color: var(--color-yellow);
@@ -86,6 +87,7 @@ footer {
   color: var(--color-navy);
 }
 
+/* Contact Section */
 .contact-section {
   background-color: var(--color-navy);
   color: var(--color-beige);
@@ -138,3 +140,4 @@ footer {
   background-color: var(--color-yellow);
   color: var(--color-navy);
 }
+
