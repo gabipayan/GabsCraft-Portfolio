@@ -141,3 +141,45 @@ footer {
   color: var(--color-navy);
 }
 
+/* Resume Section */
+.resume-section {
+  background-color: var(--color-yellow);
+  padding: 40px 20px;
+  color: var(--color-navy);
+  text-align: center;
+}
+
+.resume-title {
+  font-size: 28px;
+  color: var(--color-salmon);
+  margin-bottom: 20px;
+}
+
+.resume-download {
+  display: inline-block;
+  background-color: var(--color-salmon);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.resume-download:hover {
+  background-color: var(--color-yellow);
+  color: var(--color-navy);
+}
+
+.proficiencies-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.proficiencies-list > li {
+  margin-bottom: 20px;
+}

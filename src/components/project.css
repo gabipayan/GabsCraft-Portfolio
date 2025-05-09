@@ -51,9 +51,60 @@
   }
   
   .project-item img {
-    width: 100%;
+    width: 50%;
     max-height: 200px;
     object-fit: cover;
     border-radius: 8px;
     margin: 10px 0;
   }
+  .image-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    max-width: 600px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* ocupa el área completa de .image-container */
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+    color: white;
+    font-weight: bold;
+    gap: 200px;
+    text-align: center;
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay a {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .overlay a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  
