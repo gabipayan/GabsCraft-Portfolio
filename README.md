@@ -1,12 +1,47 @@
-# React + Vite
+# GabsCraft-Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This project is a professional single-page application portfolio built with React, designed to showcase a web developer’s skills, background, and work. It was developed to meet the expectations of employers looking to evaluate potential candidates through an interactive, accessible, and modern interface. [GabsCraft Portfolio](https://atmospredict.onrender.com)
+![This is how it looks!](https://github.com/user-attachments/assets/d5970bb6-b1e4-4c6a-98b0-26be27034446)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Installation 
+
+```md
+// Clone the code
+git clone 
+```
+```bash
+npm install
+```
+
+## Usage
+
+* Open your TERMINAL to start running the app:
+
+```bash
+npm run start
+```
+
+ ##  Contributing
+* Add your comments to this repository by commenting on specific lines of code in the repository.
+
+* How to Comment:
+- Navigate to a specific file in the repository under the “Code” tab.
+- Browse to the desired line of code.
+- Click the line number to add an inline comment.
+
+ ##  Questions
+For any questions, please contact me using the information below:
+- GitHub: [gabipayan](https://github.com/gabipayan)
+- Email: [gapayan26@gmail.com](gapayan26@gmail.com)
+ 
+
