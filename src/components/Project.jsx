@@ -1,6 +1,6 @@
 // src/components/Project.jsx
 import React from 'react';
-import './Project.css'; //  for styling
+import './project.css'; //  for styling
 
 const Project = ({ title, image, appLink, repoLink }) => {
   return (
