@@ -1,6 +1,8 @@
 // src/components/Project.jsx
 import React from 'react';
 import './project.css'; //  for styling
+import weatherImg from '../Images/Weather Dashboard.png';
+import greetingsImg from '../Images/GreetingsG.png';
 
 const Project = ({ title, image, appLink, repoLink }) => {
   return (
@@ -23,7 +25,7 @@ const Project = ({ title, image, appLink, repoLink }) => {
         <div className="image-container">
           <img
             src="src/Images/GreetingsG.png" 
-            alt="AtmosPredict" 
+            alt="GreetingsG" 
           />
           <div className="overlay">
             <a href="https://atmospredict.onrender.com/" target="_blank" rel="noopener noreferrer">View App</a> |{' '}
