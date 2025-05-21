@@ -7,11 +7,22 @@ const Contact = () => {
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+  // Limpiar errores personalizados al escribir
+  e.target.setCustomValidity('');
+};
+
+const handleInvalid = (e) => {
+  if (e.target.name === 'email') {
+    e.target.setCustomValidity('Please enter a valid email address.');
+  } else {
+    e.target.setCustomValidity('This field is required.');
+  }
+};
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Validación y envío del formulario
+    alert('Message submitted! ✅');
   };
 
   return (
