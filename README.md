@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a professional single-page application portfolio built with React, designed to showcase a web developer’s skills, background, and work. It was developed to meet the expectations of employers looking to evaluate potential candidates through an interactive, accessible, and modern interface. [GabsCraft Portfolio](https://atmospredict.onrender.com)
+This project is a professional single-page application portfolio built with React, designed to showcase a web developer’s skills, background, and work. It was developed to meet the expectations of employers looking to evaluate potential candidates through an interactive, accessible, and modern interface. [GabsCraft Portfolio](https://bucolic-tiramisu-04c9fb.netlify.app/portfolio)
 ![This is how it looks!](https://github.com/user-attachments/assets/ad22f60a-a07c-41e5-aa5d-63926263d742)
 
 
